@@ -132,7 +132,7 @@ class B2GEmulatorTest(TestingMixin, VCSMixin, BaseScript, BlobUploadMixin):
             require_config_file=require_config_file,
             config={
                 'require_test_zip': True,
-                'emulator': 'arm',
+                'emulator': 'x86',
                 # This is a special IP that has meaning to the emulator
                 'remote_webserver': '10.0.2.2',
             }
